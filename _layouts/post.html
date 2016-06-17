@@ -18,11 +18,11 @@ post_class: post-template
         <header class="post-header">
             <h2 class="post-title">{{ page.title }}</h2>
             <section class="post-meta">
+                {{page.author}}
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
                 {% endif %}
-            <h3 class="post-author">page.author</h3>
             </section>
         </header>
 
