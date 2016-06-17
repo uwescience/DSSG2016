@@ -1,0 +1,14 @@
+name: Data Science for Social Good 2016
+description: The University of Washington eScience Institute
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://uwescience.github.io/DSSG2016'
+google_analytics: 'UA-79514605-1'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'UW eScience'
