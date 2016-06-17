@@ -22,6 +22,7 @@ post_class: post-template
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
                 {% endif %}
+            <h3 class="post-author">page.author</h3>
             </section>
         </header>
 
