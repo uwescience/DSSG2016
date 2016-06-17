@@ -1,32 +1,37 @@
-# Kasper
+# The UW eScience DSSG blog website
 
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
+To create a new post:
 
-## How to use it
+- Clone this repo. Note that it does not have a `master` branch. Instead,
+  The blog will get automatically generated from the `gh-pages` branch, so
+  all the content needs to be added to this branch.
 
-Simply clone this repository, and then run `jekyll serve` inside the directory.
+- Posts need to be added as new markdown files in the `_posts`. File names
+  need to be something like `2016-06-16-example-post.md`. Note that the
+  details in the header need to be something like:
 
-Kasper theme includes:
+>    ---
+>    layout: post
+>    title:  "Example Post"
+>    date:   2016-06-16
+>    author: Ariel Rokem
+>    ---
 
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
+  with your name, the title you want for your post, and the date you are
+  writing it.
 
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+- To generate the site, we are using the [Jekyll](https://jekyllrb.com/)
+  static website generator. For more information about the markdown syntax
+  that you can use to write posts, add links, images, etc. Refer to the
+  example post that is already there, and to the
+  [Jekyll documentation](https://jekyllrb.com/docs/home/)
 
 
-## Thanks 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
 
 ## Copyright & License
+
+The template used for this website is Kasper, released under the following
+license:
 
 Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
 
