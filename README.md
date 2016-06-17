@@ -10,12 +10,12 @@ To create a new post:
   need to be something like `2016-06-16-example-post.md`. Note that the
   details in the header need to be something like:
 
->    ---
->    layout: post
->    title:  "Example Post"
->    date:   2016-06-16
->    author: Ariel Rokem
->    ---
+      ---
+      layout: post
+      title:  "Example Post"
+      date:   2016-06-16
+      author: Ariel Rokem
+      ---
 
   with your name, the title you want for your post, and the date you are
   writing it.
