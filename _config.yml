@@ -5,7 +5,7 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-url: http://uwescience.github.io/DSSG2016
+url: / #http://uwescience.github.io/DSSG2016
 domain_name: 'http://uwescience.github.io/DSSG2016'
 google_analytics: 'UA-79514605-1'
 gems: [jekyll-paginate]
