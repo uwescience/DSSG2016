@@ -1,11 +1,11 @@
 name: Data Science for Social Good 2016
 description: The University of Washington eScience Institute
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /
-url: / #http://uwescience.github.io/DSSG2016
+baseurl: https://uwescience.github.io/DSSG2016
+url: https://uwescience.github.io/DSSG2016
 domain_name: 'http://uwescience.github.io/DSSG2016'
 google_analytics: 'UA-79514605-1'
 gems: [jekyll-paginate]
