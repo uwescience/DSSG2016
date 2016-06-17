@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: About Data Science for Social Good
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Wherein DSSG is explained
