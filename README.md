@@ -6,9 +6,9 @@ To create a new post:
   The blog will get automatically generated from the `gh-pages` branch, so
   all the content needs to be added to this branch.
 
-- Posts need to be added as new markdown files in the `_posts`. File names
-  need to be something like `2016-06-16-example-post.md`. Note that the
-  details in the header need to be something like:
+- Posts need to be added as new markdown files in the `_posts` directory. 
+  File names need to be something like `2016-06-16-example-post.md`. Note that 
+  the details in the header need to be something like:
 
       ---
       layout: post
