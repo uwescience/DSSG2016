@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Cynthia: introduction"
+title: "Introducing DSSG Fellow Cynthia Vint"
 date: 2016-06-17
 author: Cynthia Vint
 ---
-
-##About Me
 
 <p>
 I am a graduate student in Information Systems at Boston University, with a concentration in Data Analytics. I received my Bachelor's from Emory University in Atlanta, GA. After graduating I worked as an IT Consultant with Oracle for their knowledge management and enterprise search software.</p>
