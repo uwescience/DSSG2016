@@ -1,3 +1,13 @@
+
+---
+layout: post
+title:  "Introducing DSSG Fellow Victoria Sass"
+date:   2016-06-24
+author: Victoria Sass
+---
+
+![Victoria](https://soc.washington.edu/sites/soc/files/styles/large/public/images/dsc_0002.jpg?itok=t3QDGQ6-){:width=200px"}
+
 Originally from Southern California I relocated to Seattle in the Fall of 2014 to start a PhD program in Sociology at the University of Washington.
 My current research focuses on urban environmental inequality and its relationship to racial/ethnic and economic stratification. I'm pursuing several projects 
 looking at the relationships between residential mobility/stratification and air pollution. 
@@ -8,7 +18,7 @@ the Social Good program combines the skills and theoretical knowledge I came to 
 a better, more equitable place. I believe this program will provide me with tangible examples of ways to bridge academic research with community 
 engagement, which I plan to integrate into the rest of my work throughout my career.
 
-I am particularly interested in learning how to hone my GIS skills to better visualize spatial data. This is going to be especially important for answering
+I am particularly interested in honing my GIS skills to better visualize spatial data. This is going to be especially important for answering
 questions about ORCA transit data and I know I will additionally benefit from these skills in my own work on neighborhoods and environmental quality. 
-I've already learned quite a bit within the first two weeks of the program including the value and importance of Git and the utility of GitHub as well as
-a number of new (to me) features of QGIS. 
+I've already learned quite a bit within the first two weeks of the program including the value and importance of Git and the utility of GitHub. I've also 
+learned a number of new QGIS tricks and tools which I can already tell will help make me a better social (data) scientist!  
