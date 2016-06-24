@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing DSSG Fellow Rachael Dottle"
-date:   2016-06-22
+date:   2016-06-24
 author: Rachael Dottle 
 ---
 

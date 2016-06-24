@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing DSSG Fellow Cynthia Vint"
-date: 2016-06-17
+date: 2016-06-24
 author: Cynthia Vint
 ---
 
