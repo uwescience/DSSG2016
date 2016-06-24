@@ -14,7 +14,7 @@ from our own [Data Science Incubator](http://escience.washington.edu/get-involve
 sixteen DSSG Student Fellows are working with academic researchers, data
 scientists, and public stakeholder groups on data-intensive research projects.
 
-This year's [projects]({{ site.url }}/assets/images/projects.html) focus on
+This year's [projects](http://escience.washington.edu/dssg/project-summaries-2016/) focus on
 Urban Science, aiming to understand and extract valuable, actionable information
 out of data from urban environments across topic areas including public health,
 sustainable urban planning, crime prevention, education, transportation, and
