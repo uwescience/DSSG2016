@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing DSSG Fellow Carolina Johnson"
-data: 2016-06-24
+date: 2016-06-24
 author: Carolina Johnson
 ---
 
