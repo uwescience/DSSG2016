@@ -5,7 +5,7 @@ data: 2016-06-17
 author: Carolina Johnson
 ---
 
-![Small picture of Carolina]("../assets/images/carolina-small.jpg")
+![Small picture of Carolina]({{site.url}}/assets/images/carolina-small.jpg)
 
 I'm a PhD Candidate in Political Science here at UW, where I also work as a consultant at CSSCR ([the Center for Social Science Computation and Research](http://csscr.washington.edu)).  My dissertation uses a combination of qualitative fieldwork and quantitative analysis to evaluate the impact of local [participatory budgeting](www.participatorybudgeting.org) reforms on communities' wider practices of civic engagement.
 
