@@ -4,9 +4,8 @@ title:  "Jess Hamilton Introduction"
 date:   2016-06-24
 author: Jess Hamilton
 ---
-
-![An image]({{ site.url }}/assets/images/hamilton.jpg)
-
+<img src="{{ site.url }}/assets/images/hamilton.jpg" width="220" align="right"
+style="PADDING-LEFT: 5px; PADDING-BOTTOM: 5px;">
 I am a graduate student in Landscape Architecture at the University of Washington where I also work for [Urban@UW](http://urban.uw.edu "Urban@UW").
 
 I am interested in understanding more about the potential role of data in shaping the built environment, specifically as it relates to people, climate and cities. With it's open data policy, engaged citizens and unique relationship with nature I an excited to be exploring these ideas in Seattle.
