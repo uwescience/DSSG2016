@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Carolina: introduction"
+title: "Introducing DSSG Fellow Carolina Johnson"
 data: 2016-06-17
 author: Carolina Johnson
 ---
-
-# Introducing Carolina Johnson
 
 ![Small picture of Carolina]("../assets/images/carolina-small.jpg")
 
