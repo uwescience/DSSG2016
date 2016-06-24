@@ -7,7 +7,7 @@ author: Kaicheng Tan
 
 ```ruby
 myself = DSSG2016Participant.initialize("Kaicheng Tan")
-myself.assignedProject = "Open Sidewalk"
+myself.assignedProject = "Global Open Sidewalk"
 myself.major = "Computer Science"
 ```
 
@@ -17,7 +17,7 @@ graduating. Therefore, the DSSG program becomes a valuable opportunity
 for me to gain some experience on data science programming, and to learn
 how to collaborate with other scientists in this field.
 
-My assigned project is Global Sidewalk, where I learned a lot on how to
+My assigned project is Global Open Sidewalk, where I learned a lot on how to
 outline a new project over the week. I worked on AccessMap project last
 Spring quarter, which helps me to have a better understanding on what
 this project is about and what my role in this project is. On the other 
