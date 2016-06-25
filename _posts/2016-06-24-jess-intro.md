@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducing DSSG Fello Jess Hamilton"
+title:  "Introducing DSSG Fellow Jess Hamilton"
 date:   2016-06-24
 author: Jess Hamilton
 ---
