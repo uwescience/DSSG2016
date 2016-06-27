@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing DSSG Fellow Kaicheng Tan"
-date:   2016-06-20
+date:   2016-06-24
 author: Kaicheng Tan
 ---
 
