@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introducing DSSG Fellow Carlos Espino"
-date:   2016-06-23
+date:   2016-06-24
 author: Carlos Espino
 ---
 
