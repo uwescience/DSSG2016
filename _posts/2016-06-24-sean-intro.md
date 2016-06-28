@@ -5,7 +5,7 @@ date:   2016-06-24
 author: Sean Wang
 ---
 
-*Hello, World!*
+![photo of Sean Wang]({{site.url}}/assets/images/sean.jpg){:width="220px" align="left" style="PADDING-LEFT: 5px; PADDING-BOTTOM: 5px;"} *Hello, World!*
 
 Almost all the programming tutorials I've attended start with the **print("Hello, World!")** function, so I thought it'd be an appropriate place to start. My name is [Sean Wang](https://syr.academia.edu/SeanWang), and I'm very much *not* a programmer. In real life, I am a PhD candidate in [geography at Syracuse University](http://maxwell.syr.edu/geo/). My [dissertation research](http://scholar.syr.edu/scholars/2015-16/wang.html) looks at the politics of immigration and birthright citizenship policies, via a comparative ethnography between local responses to Chinese birth tourism in Hong Kong and southern California, respectively. (It's okay- my real life is not very interesting.) In my past life, I was a demographer trained right here at [UW](https://geography.washington.edu/), so I'm very excited to be back to my old stomping grounds this summer!
 
