@@ -1,4 +1,4 @@
----
+fi---
 layout: post
 title: "Unsafe Foods: Web Scraping and Key Matching"
 date: 2016-06-29
@@ -12,11 +12,11 @@ The Unsafe Foods project is going to be very exciting and challenging this summe
 </p>
 
 <p>
-For the first week of the Unsafe Foods project, our team had to figure out how to grapple with two separate data sets with very different formats. For the Amazon review data, we are using a structured <a href="http://jmcauley.ucsd.edu/data/amazon/">data set</a> curated and published by Julian McAuley from UCSD. The challenge arose in capturing a workable data set for food recalls from the FDA. Kara Woo managed to find an <a href="https://web.archive.org/web/20150504011324/http://www.fda.gov/DataSets/Recalls/RecallsDataSet.xml">XML version</a> of a history of food recalls with a link to each recall's press release containing each product's unique identifier(s).
+For the first week of the Unsafe Foods project, our team had to figure out how to grapple with two separate data sets with very different formats. For the Amazon review data, we are using a structured <a href="http://jmcauley.ucsd.edu/data/amazon/">data set</a> curated and published by Julian McAuley from UCSD. The challenge arose in capturing a workable data set for food recalls from the FDA. <a href="_posts/2016-06-24-kara-intro.md">Kara Woo</a> managed to find an <a href="https://web.archive.org/web/20150504011324/http://www.fda.gov/DataSets/Recalls/RecallsDataSet.xml">XML version</a> of a history of food recalls with a link to each recall's press release containing each product's unique identifier(s).
 </p>
 
 <p>
-This disconnected data required some creativity in order to bring them together. Each Amazon review was assigned an ASIN, or Amazon Standard Identification Number. Each ASIN corresponds to 1 UPC, or Universal Product Code. Unfortunately, while the Recall XML data contains unique names, the UPCs are listed only when available, and in no particular format within the press releases. We needed to fiure out a way to capture those UPCs to match them against the reviews' ASINs.
+These data sets required some creativity in order to bring them together. Each Amazon review was assigned an ASIN, or Amazon Standard Identification Number. Each ASIN corresponds to 1 UPC, or Universal Product Code. Unfortunately, while the Recall XML data contains unique names, the UPCs are listed only when available, and in no particular format within the press releases. We needed to figure out a way to capture those UPCs to match them against the reviews' ASINs.
 </p>
 
 <p>
@@ -36,7 +36,7 @@ The first issue was overcome just by splitting up the UPCs so that we each perfo
 </p>
 
 <p>
-The second issue was trickier. We had to research the nature of the UPC, and figure out if there was any way to determine the corresponding 12-digit UPC from the provided 10-digit format. Miki Verma saved the day, though, and she figured out an algorithm to determine the 10 possible 12-digit UPCs from the 10-digit UPC. From there, we can infer that there is only one possible 12-digit UPC among the 10 possibilities. This is because the first digit is based on the type of food, the next 5 digits correspond to the company ID, the next 5 digits are reserved for the company-wide product ID, and the last digit is a check digit to confirm the validity of the UPC. With the 10-digit UPC, the company ID is known, and the product ID is known. Each product has only one possible first digit. Once the correct UPC is passed into the REST API and a corresponding ASIN is returned, the function can discard the rest.
+The second issue was trickier. We had to research the nature of the UPC, and figure out if there was any way to determine the corresponding 12-digit UPC from the provided 10-digit format. <a href="_posts/2016-06-24-miki-intro.md">Miki Verma</a> saved the day, though, and she figured out an algorithm to determine the 10 possible 12-digit UPCs from the 10-digit UPC. From there, we can infer that there is only one possible 12-digit UPC among the 10 possibilities. This is because the first digit is based on the type of food, the next 5 digits correspond to the company ID, the next 5 digits are reserved for the company-wide product ID, and the last digit is a check digit to confirm the validity of the UPC. With the 10-digit UPC, the company ID is known, and the product ID is known. Each product has only one possible first digit. Once the correct UPC is passed into the REST API and a corresponding ASIN is returned, the function can discard the rest.
 </p>
 
 <img src="assets/images/upc_to_asin.png">
