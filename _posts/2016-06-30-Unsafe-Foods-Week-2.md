@@ -39,7 +39,7 @@ The first issue was overcome just by splitting up the UPCs so that we each perfo
 The second issue was trickier. We had to research the nature of the UPC, and figure out if there was any way to determine the corresponding 12-digit UPC from the provided 10-digit format. <a href="_posts/2016-06-24-miki-intro.md">Miki Verma</a> saved the day, though, and she figured out an algorithm to determine the 10 possible 12-digit UPCs from the 10-digit UPC. From there, we can infer that there is only one possible 12-digit UPC among the 10 possibilities. This is because the first digit is based on the type of food, the next 5 digits correspond to the company ID, the next 5 digits are reserved for the company-wide product ID, and the last digit is a check digit to confirm the validity of the UPC. With the 10-digit UPC, the company ID is known, and the product ID is known. Each product has only one possible first digit. Once the correct UPC is passed into the REST API and a corresponding ASIN is returned, the function can discard the rest.
 </p>
 
-<img src="{{ site.url }}assets/images/upc_to_asin.png">
+<img src="{{ site.url }}/assets/images/upc_to_asin.png">
 
 <p>
 Now that we have found corresponding unique identifiers, we are able to tag our documents in order to develop a classification model. We hope that we can use this to make reliable predictions about the safety of food products, but we still have a long way to go! 
