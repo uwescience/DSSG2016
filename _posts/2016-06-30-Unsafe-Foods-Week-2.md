@@ -5,7 +5,7 @@ date: 2016-06-29
 author: Cynthia Vint
 ---
 
-<body>
+
 
 <p>
 The Unsafe Foods project is going to be very exciting and challenging this summer. We get to experiment with advanced text mining practices and attempt to make a predictive model for product recalls from Amazon reviews. As intriguing as this topic is, our goals will not be achieved without a lot of sifting through some muddy data sets and determining what we can accomplish given our time frame and resources.
@@ -44,5 +44,3 @@ The second issue was trickier. We had to research the nature of the UPC, and fig
 <p>
 Now that we have found corresponding unique identifiers, we are able to tag our documents in order to develop a classification model. We hope that we can use this to make reliable predictions about the safety of food products, but we still have a long way to go! 
 </p>
-
-</body>
