@@ -14,7 +14,7 @@ Topic modeling, at its simplest, is a way of determining the hidden categories t
 ###NMF
 Non-negative Matrix Factorization, or NMF, is one method for topic modeling.  NMF is an unsupervised, linear-algebra based algorithm that performs dimensionality reduction and clustering simultaneously. The input for the algorithm is a document-term matrix, where each row, in our case, is a review, and each column is a term used in the grocery review corpus.  Below is a visual of a document-term matrix from [Derek Greene's great introduction article on NMF.](http://derekgreene.com/nmf-topic/)  Higher frequency of a term is denoted by a darker shade of blue.
 
-![An image]({{ site.url }}/assets/images/doc-term-matrix.png)  
+![Doc-term]({{ site.url }}/assets/images/doc-term-matrix.png)  
 
 In order to create the document-term frequency matrix, some standardization of text is required.  Specifically, we removed all English language 'stopwords' (e.g., and, the, has) which hold little value for modeling given their high frequency in all articles,removed special characters, made all text lowercase, stemmed each word to its root (e.g., running = run) and weighted term frequency using TF-IDF weighting, which lowers the weight of a term in the matrix if it is relatively common throughout the corpus.
 
@@ -22,12 +22,12 @@ The resulting matrix can be processed through various packages, including the [N
 
 The NMF process revealed some interesting 'unobserved' topics among the recalled products, such as one topic which hinted at the spoilage of products shortly after they were received (e.g., rancid, temperature, ruin).
 
-![An image]({{ site.url }}/assets/images/NMF.png)
+![NMF_cat]({{ site.url }}/assets/images/NMF.png)
 
 ###LDA
 
 Latent Dirichlet Allocation, or LDA, has similar outcomes as NMF (e.g., topics and keywords) but uses a slightly different approach.  LDA is a probabilistic model which assumes that each document in a corpus is a mixture of a small number of topics, with the topic distribution among the corpus having a [Dirichlet prior](https://en.wikipedia.org/wiki/Dirichlet_distribution).  There are great visualization packages for LDA analysis, including LDAvis, which produced the topic graphic below for our review data:
 
-![An image]({{ site.url }}/assets/images/ldavis-recalled-topic-13.png) 
+![LDA_vis]({{ site.url }}/assets/images/ldavis-recalled-topic-13.png) 
 
 We'll be playing with these models and expanding them over the next few weeks - more updates to come!  Until then, please continue to use spellcheck when writing online reviews....
