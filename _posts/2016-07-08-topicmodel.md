@@ -12,6 +12,7 @@ Previous work that mined text data from online restaurant reviews for the early 
 Topic modeling, at its simplest, is a way of determining the hidden categories that are present in a corpus of text.  If you were given all the text from a newspaper, for example, topic modeling could be used to identify the general topics used to group individual articles (e.g., politics, sports, business) and the keywords that place them in these categories (e.g., 'economy, vote, ballot', 'score, game, championship'....).  This process is done by humans automatically - you can easily identify the type of article you are reading based on keywords and context.  However, we can also do this mathematically, which can establish unobservable categories that are less obvious to the human reader.
 
 ###NMF
+
 Non-negative Matrix Factorization, or NMF, is one method for topic modeling.  NMF is an unsupervised, linear-algebra based algorithm that performs dimensionality reduction and clustering simultaneously. The input for the algorithm is a document-term matrix, where each row, in our case, is a review, and each column is a term used in the grocery review corpus.  Below is a visual of a document-term matrix from [Derek Greene's great introduction article on NMF.](http://derekgreene.com/nmf-topic/)  Higher frequency of a term is denoted by a darker shade of blue.
 
 ![Doc-term]({{ site.url }}/assets/images/doc-term-matrix.png)  
@@ -28,6 +29,6 @@ The NMF process revealed some interesting 'unobserved' topics among the recalled
 
 Latent Dirichlet Allocation, or LDA, has similar outcomes as NMF (e.g., topics and keywords) but uses a slightly different approach.  LDA is a probabilistic model which assumes that each document in a corpus is a mixture of a small number of topics, with the topic distribution among the corpus having a [Dirichlet prior](https://en.wikipedia.org/wiki/Dirichlet_distribution).  There are great visualization packages for LDA analysis, including LDAvis, which produced the topic graphic below for our review data:
 
-![LDA_vis]({{ site.url }}/assets/images/ldavis-recalled-topic-13.png) 
+![LDA_vis]({{ site.url }}/assets/images/ldavis-recalled-topic-13.png)
 
 We'll be playing with these models and expanding them over the next few weeks - more updates to come!  Until then, please continue to use spellcheck when writing online reviews....
