@@ -24,8 +24,8 @@ previously become sick. This process may be repeated many times for many
 patients before the source of the outbreak is clear and a recall can proceed.
 
 <figure>
-  <img
-  src="http://www.cdc.gov/salmonella/poona-09-15/images/big-epi-3-18-16.jpg"
+  <img 
+  src="{{ site.url }}/assets/images/cdc-salmonella.jpg"
   alt="Outbreak and recall of Salmonella from imported cucumbers">
   <figcaption style="font-size:12px">
     Outbreak and recall of <i>Salmonella</i> Poona from imported cucumbers.
