@@ -5,7 +5,6 @@ date:   2016-07-19
 author: Rachael Dottle 
 ---
 
-
 <p/> This past couple of weeks, part of the CrowdSensing Census team has been working on extracting, parsing and analyzing OpenStreetMap (OSM) data as a component of our heterogeneous-based tool for estimating poverty alongside call detail record (CDR) data. </p>
 
 <p/>In our background research, we found previous [works](http:/arxiv.org/abs/1411.5204/) that investigated a means to estimate the spatial distribution of poverty with alternatives to census data. Such work uses OSM point of interest (POI) data and attempts to identify types of POIs (like fast food restaurants, pubs, etc.) that correlate with census variables and deprivation, in order to use such POI data to predict deprivation in a given neighborhood, city, or country. </p>
@@ -20,10 +19,14 @@ author: Rachael Dottle
 
 <p/> Once we filtered for only nodes tagged 'amenity', we found around 80 different value categories under the key 'amenity'. We then attempted to analyze the relationship between these distinct categories and our index of deprivation. </p>
 
+![Map of a sample of amenity categories in Milan](http://i.imgur.com/Wa7ycXM.jpg/)
 
-<p/> Moving forward, we have a couple issues to address, and a million different ways we could continue to explore features available to us in OSM data. We are continuing to refine our method for extracting POI categories in order to account for mis-tagged nodes. We also hope to improve our method of differentiating between categories that might be relevant but have infrequent observations, like zoos, compared to categories that might not be relevant and have infrequent observations, like a mispelled 'amenity' key. 
 
-Furthermore, OSM data has so much to offer beyond its POI nodes. Other works that have attempted to analyze the spatial distribution of deprivation took into account the urban fabric and built environment. OSM data includes dense street network data and building data. These data may provide us with alternative means to model spatial deprivation with OSM, which will improve our final model and analysis.  
+<p/> Moving forward, we have a couple issues to address, and a million different ways we could continue to explore features available to us in OSM data. We are continuing to refine our method for extracting POI categories in order to account for mis-tagged nodes. We also hope to improve our method of differentiating between categories that might be relevant but have infrequent observations, like zoos, compared to categories that might not be relevant and have infrequent observations, like a mispelled 'amenity' key. </p>
 
-Sidenote: The OSM State of the Map is this weekend, and the CrowdSensing Census team is very, very excited about it. ༼ つ ◕_◕ ༽つ
+<p/> Furthermore, OSM data has so much to offer beyond its POI nodes. Other works that have attempted to analyze the spatial distribution of deprivation took into account the urban fabric and built environment. OSM data includes dense street network data and building data. These data may provide us with alternative means to model spatial deprivation with OSM, which will improve our final model and analysis. </p>
+
+<p/> Sidenote: The OSM State of the Map is this weekend, and the CrowdSensing Census team is very, very excited about it. </p>
+
+<p/> ༼ つ ◕_◕ ༽つ </p>
 
