@@ -5,7 +5,7 @@ date:   2016-07-29
 author: Jess Hamilton and Meg Drouhard
 ---
 
-For the past several weeks, the OpenSidewalks team has been actively preparing for State of the Map US (http://stateofthemap.us/, SOTMUS), an annual gathering for the US-focused OpenStreetMap (OSM) community.   The conference includes presentations from researchers, professionals, and hobbyists, along with lightning talks and hands-on workshops.  The OpenSidewalks team had the opportunity to present a brief overview of our proposal for standardizing conventions around sidewalk tagging in OSM.
+For the past several weeks, the OpenSidewalks team has been actively preparing for [State of the Map US] (http://stateofthemap.us/) (SOTMUS), an annual gathering for the US-focused OpenStreetMap (OSM) community.   The conference includes presentations from researchers, professionals, and hobbyists, along with lightning talks and hands-on workshops.  The OpenSidewalks team had the opportunity to present a brief overview of our proposal for standardizing conventions around sidewalk tagging in OSM.
 
 ![OpenSidewalks lightning talks at SOTMUS]({{ site.url }}/assets/images/Open-Sidewalks-Presentation.JPG)
 
