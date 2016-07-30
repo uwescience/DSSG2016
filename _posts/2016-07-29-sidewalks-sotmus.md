@@ -54,7 +54,10 @@ And just in case our current projects aren't compelling enough for you, please n
 	                                   |     /
 	                                   |   ,'
                                     `""
+
+
 Eevee Ascii Art Credit: [Maija Haavisto](http://www.fiikus.net/?pokedex)
 
 
-For more information on ![OpenSidewalks logo]({{ site.url }}/assets/images/OpenSidewalks-LogoBlack.png), follow us on Twitter [@OpenSidewalks](https://twitter.com/opensidewalks) or check out our website at [www.OpenSidwalks.com](http://www.opensidewalks.com).
+![OpenSidewalks logo]({{ site.url }}/assets/images/OpenSidewalks-LogoBlack.png) 
+For more information, follow us on Twitter [@OpenSidewalks](https://twitter.com/opensidewalks) or check out our website at [www.OpenSidwalks.com](http://www.opensidewalks.com).
