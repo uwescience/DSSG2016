@@ -894,9 +894,11 @@ body:not(.post-template) .post-title {
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
 .post-content .full-img {
-    width: 126%;
-    max-width: none;
-    margin: 0 -13%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.6em 0;
 }
 
 /* The author credit area after the post */
