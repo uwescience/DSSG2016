@@ -4,8 +4,8 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: https://yiqinaliciashen.github.io/DSSG2016/
-url: https://yiqinaliciashen.github.io/DSSG2016/
-domain_name: 'http://yiqinaliciashen.github.io/DSSG2016'
+baseurl: https://uwescience.github.io/DSSG2016/
+url: https://uwescience.github.io/DSSG2016/
+domain_name: 'http://uwescience.github.io/DSSG2016'
 google_analytics: 'UA-79514605-1'
 gems: [jekyll-paginate]
