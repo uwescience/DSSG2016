@@ -7,13 +7,13 @@ author: Carlos Espino
 
 Last week we wanted to extract more information from Milan´s OSM data, so we performed visualization and analysis of its street network. We aim to find a relationship between the street connectivity and social deprivation. We also wanted to further investigate how this relationship differs from that of Milan in a city belonging to a developing country, particularly Mexico City.
 
-In order to compute connectedness of the street network, we tried the two following graph centrality measures: 
+One way to quantify the network of streets in a city, in terms of its connectivity is a network, or graph, with intersections as nodes and streets as edges connecting between the nodes
 
-+ _Betweenness centrality_ measures the number of shortest paths between any given pair of nodes that pass through an individual node.  
+In order to compute connectedness of the street network, we calculated the two following graph centrality measures: 
+
++ _Betweenness centrality_ measures the number of shortest paths (streets, or edges) between any given pair of nodes (intersections) that pass through an individual node.  
 
 + _Closeness centrality_ measures how "close" you are to the center of the graph- that is, the length of average shortest path between a node and all nodes to the graph. For each node, the algorithm computes the length of the average shortest path between it and all the other nodes in the graph and calculates the inverse total length.
-
-In order to compute the centrality, we first converted the spatial lines' shapefile into a graph object, where the nodes in the graph correspond to the intersections, and the edges correspond to the streets. 
 
 The following map shows both centrality measures for the city of Milan
 
@@ -54,4 +54,4 @@ Table: Correlation between centrality measures and deprivation index in Mexico C
 
 Both measures exhibit a significant inverse correlation with the deprivation index. This means that the areas with more street network centrality, on average, are less deprived.
 
-From our results, we can see that in Mexico City the connectivity is related to deprivation. This may be because Mexico City is a sprawling metropolis that is spread out across a large area. This makes commutes for people in less central areas extremely long, and therefore the more central residential areas are most disrable in terms of convenience. Housing costs are highest in the central region, thus resulting in higher levels of deprivation in the outskirts and more suburban areas. 
+From our results, we can see that in Mexico City the connectivity is related to deprivation. This may be because Mexico City is a sprawling metropolis that is spread out across a large area. This makes commutes for people in less central areas extremely long, and therefore the more central residential areas are most desirable in terms of convenience. Housing costs are highest in the central region, thus resulting in higher levels of deprivation in the outskirts and more suburban areas. 
