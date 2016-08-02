@@ -40,17 +40,20 @@ First, we explored the relationship between the street network centrality and ou
 |            | correlation| p-value   |
 |:-----------|-----------:|----------:|
 |closeness   |  0.094     |   0.39    |
-|betweenness |  0.069     |	0.53    |
-Table: Correlation between centrality measures and well-being index in Milan
+|betweenness |  0.069     |	0.53      |
 
-The correlations are clearly not significant in the case of Milan. In the case of Mexico City, however:
+Table: Correlation between centrality measures and well-being index in Milan
+The correlations are clearly not significant in the case of Milan. In the case
+of Mexico City, however:
 
 
 |            | correlation| p-value   |
 |:-----------|-----------:|----------:|
 |closeness   |  -0.49     |   <2e-16  |
-|betweenness |  -0.39     |	<2e-16  |
-Table: Correlation between centrality measures and deprivation index in Mexico City
+|betweenness |  -0.39     |	<2e-16    |
+
+Table: Correlation between centrality measures and deprivation index in Mexico
+City
 
 Both measures exhibit a significant inverse correlation with the deprivation index. This means that the areas with more street network centrality, on average, are less deprived.
 
