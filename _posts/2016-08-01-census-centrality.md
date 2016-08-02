@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Crowdsensing the Census - Exploring Street Network"
-date:   2016-07-20
+date:   2016-08-01
 author: Carlos Espino
 ---
 
@@ -9,7 +9,7 @@ Last week we wanted to extract more information from Milan´s OSM data, so we pe
 
 One way to quantify the network of streets in a city, in terms of its connectivity is a network, or graph, with intersections as nodes and streets as edges connecting between the nodes
 
-In order to compute connectedness of the street network, we calculated the two following graph centrality measures: 
+In order to compute connectedness of the street network, we calculated the two following graph centrality measures:
 
 + _Betweenness centrality_ measures the number of shortest paths (streets, or edges) between any given pair of nodes (intersections) that pass through an individual node.  
 
@@ -54,4 +54,4 @@ Table: Correlation between centrality measures and deprivation index in Mexico C
 
 Both measures exhibit a significant inverse correlation with the deprivation index. This means that the areas with more street network centrality, on average, are less deprived.
 
-From our results, we can see that in Mexico City the connectivity is related to deprivation. This may be because Mexico City is a sprawling metropolis that is spread out across a large area. This makes commutes for people in less central areas extremely long, and therefore the more central residential areas are most desirable in terms of convenience. Housing costs are highest in the central region, thus resulting in higher levels of deprivation in the outskirts and more suburban areas. 
+From our results, we can see that in Mexico City the connectivity is related to deprivation. This may be because Mexico City is a sprawling metropolis that is spread out across a large area. This makes commutes for people in less central areas extremely long, and therefore the more central residential areas are most desirable in terms of convenience. Housing costs are highest in the central region, thus resulting in higher levels of deprivation in the outskirts and more suburban areas.
