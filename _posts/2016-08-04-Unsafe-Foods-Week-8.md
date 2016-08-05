@@ -17,7 +17,7 @@ To handle this problem, we decided to try using Python's Wikipedia module by att
 
 This next step was answering the first question- how many topics should be generated from the topic model? For this, we performed a Stability Analysis using the K-Means clustering algorithm and then calculating the stability score- that is, we compared the similarity of all unique pairs of clusterings generated at each number of topics within a given range (in our case 2 to 25). A high stability score indicates that the selected number of clusters provides consistent results on data coming from the same source. The stability score versus number of clusters for this data is visualized below:
 
-!["Stability Analysis"](assets/images/best_k_topics.png)
+!["Stability Analysis"]({{ site.url }}/assets/images/best_k_topics.png)
 
 From the visualization, we see that there is a peak in stability at k = 19, so for our clustering algorithm we input 19 as the number of topics to output. We use Non-negative Matrix Factorization for our clustering algorithm. The top terms in each cluster were as seen below:
 
