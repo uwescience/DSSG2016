@@ -15,7 +15,7 @@ The first hurdle was removing vocabulary that would throw off the topic model. W
 
 To handle this problem, we decided to try using Python's Wikipedia module by attempting to identify categories of each term. If the term's categories contained words within our list of key category terms, 'disease', 'epidemiology', 'bacteria', 'preservative', 'refrigerant', 'food', 'edible', 'plant', or 'chemical' (this could probably be further refined), then we left the proper noun in the token set. Otherwise, it would be removed. This proved to clean up our tokens pretty nicely.
 
-This next step was answering the first question- how many topics should be generated from the topic model? For this, we performed a Stability Analysis using the K-Means clustering algorithm and then calculating the stability score- that is, we compared the similarity of all unique pairs of clusterings generated at each number of topics within a given range (in our case 2 to 25). A high stability score indicates that the selected number of clusters provides consistent results on data coming from the same source. The stability score versus number of clusters for this data is visualized below:
+This next step was answering the first question- how many topics should be generated from the topic model? For this, we performed a Stability Analysis using the K-Means clustering algorithm and then calculating the stability score[^1]- that is, we compared the similarity of all unique pairs of clusterings generated at each number of topics within a given range (in our case 2 to 25). A high stability score indicates that the selected number of clusters provides consistent results on data coming from the same source. The stability score versus number of clusters for this data is visualized below:
 
 !["Stability Analysis"]({{ site.url }}/assets/images/best_k_topics.png)
 
@@ -46,3 +46,6 @@ Topic 18: fre, grocers, unified, dairy, ind, glut, bakery, howev, claim, canadia
 As you can see, some of these topics are identifiable to the human eye. For example, Topic 1 indicates a threat to vulnerable individuals, and Topic 4 indicates ingredients that can cause allergic reactions; this could indicate mislabelling.
 
 From these results, we extracted the topic-term matrix and the reason-for-recall document-topic matrix. This data will be used to determine whether it can improve upon our classification model.
+
+[^1]:
+[How Many Topics? Stability Analysis for Topic Models, Derek Greene](http://derekgreene.com/howmanytopics/)
